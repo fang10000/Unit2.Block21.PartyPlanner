@@ -51,6 +51,7 @@ function renderParties() {
   const deleteButtons = document.querySelectorAll('.deleteBtn');
   deleteButtons.forEach(button => {
     button.addEventListener('click', deleteItem);
+    render();
   });
 
 }
