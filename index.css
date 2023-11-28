@@ -1,0 +1,10 @@
+label {
+    display: block;
+    margin-bottom: 10px; /* Adjust the value as needed for spacing */
+  }
+
+  input[type="text"] {
+    border: 1px solid #ccc; /* Example border style */
+    padding: 8px; /* Example padding */
+    margin: 0;
+  }
