@@ -37,7 +37,6 @@ function renderParties() {
     li.dataset.partyId = party.id;
     li.innerHTML = `
       <h2>${party.name}</h2>
-      <p> ID: ${party.id}</p>
       <p>Description: ${party.description}</p>
       <p>Date & Time: ${party.date}</p>
       <p>Location: ${party.location}</p>
